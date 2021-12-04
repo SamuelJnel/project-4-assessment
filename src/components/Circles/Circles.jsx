@@ -2,7 +2,7 @@ import React from "react";
 import "./Circles.css";
 
 const Circles = (props) => {
-  console.log(props.selected);
+  console.log(props.clicked);
   return (
     <div className="Circles">
       <div className={props.clicked === "1" ? "selected" : ""}>1</div>
